@@ -132,8 +132,8 @@ public class Game {
 
             Secuencia = Sequence.actions(scale,scale2,scale,scale2,scale,scale2);
 
-            ScaleBy scale3 = ScaleBy.action(2f,1.3f);
-            ScaleTo scale4 = ScaleTo.action(2f,1f);
+            ScaleBy scale3 = ScaleBy.action(1f,1.3f);
+            ScaleTo scale4 = ScaleTo.action(1f,1f);
 
             Secuencia2 = Sequence.actions(scale3,scale4,scale3,scale4,scale3,scale4);
 
